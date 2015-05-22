@@ -1,0 +1,36 @@
+{
+  "name": "child-process-ctor",
+  "version": "0.0.0",
+  "description": "Node.js childProcess.ChildProcess ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/child-process-ctor",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "built-in",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "child",
+    "process",
+    "childprocess",
+    "constructor",
+    "ctor"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
