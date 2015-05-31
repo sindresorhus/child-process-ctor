@@ -1,10 +1,10 @@
 # child-process-ctor [![Build Status](https://travis-ci.org/sindresorhus/child-process-ctor.svg?branch=master)](https://travis-ci.org/sindresorhus/child-process-ctor)
 
-> Node.js `childProcess.ChildProcess` ponyfill
+> io.js 2.2.0 `childProcess.ChildProcess` ponyfill
 
 > Ponyfill: A polyfill that doesn't overwrite the native method
 
-The `ChildProcess` constructor weren't previously easily exposed. This is most likely going to [change soon](https://github.com/nodejs/io.js/pull/1760).
+The `ChildProcess` constructor was [exposed](https://github.com/nodejs/io.js/blob/master/CHANGELOG.md#commits) in io.js 2.2.0. This makes it accessible in all Node versions.
 
 
 ## Install

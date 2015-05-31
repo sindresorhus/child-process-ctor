@@ -1,7 +1,7 @@
 {
   "name": "child-process-ctor",
   "version": "0.1.0",
-  "description": "Node.js childProcess.ChildProcess ponyfill",
+  "description": "io.js 2.2.0 childProcess.ChildProcess ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/child-process-ctor",
   "author": {
