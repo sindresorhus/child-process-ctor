@@ -1,10 +1,9 @@
-'use strict';
-var test = require('ava');
-var childProcessCtor = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	var ctor = childProcessCtor();
-	t.assert(ctor.name === 'ChildProcess');
-	t.assert(typeof ctor.prototype.spawn === 'function');
+test(t => {
+	const ctor = fn();
+	t.is(ctor.name, 'ChildProcess');
+	t.is(typeof ctor.prototype.spawn, 'function');
 	t.end();
 });
