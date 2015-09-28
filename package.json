@@ -1,7 +1,7 @@
 {
   "name": "child-process-ctor",
   "version": "1.0.0",
-  "description": "io.js 2.2.0 childProcess.ChildProcess ponyfill",
+  "description": "Node.js `childProcess.ChildProcess` ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/child-process-ctor",
   "author": {
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "built-in",
+    "builtin",
     "core",
     "ponyfill",
     "polyfill",
