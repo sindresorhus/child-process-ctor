@@ -1,9 +1,9 @@
 import childProcess from 'child_process';
 import test from 'ava';
-import fn from './';
+import m from './';
 
 test(t => {
-	const ctor = fn();
+	const ctor = m();
 	const ctorNative = childProcess.ChildProcess;
 
 	t.is(ctor.name, 'ChildProcess');
@@ -13,6 +13,4 @@ test(t => {
 		t.is(ctor, ctorNative);
 		t.is(ctor.prototype.spawn, ctorNative.prototype.spawn);
 	}
-
-	t.end();
 });
