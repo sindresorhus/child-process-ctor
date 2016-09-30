@@ -1,8 +1,6 @@
 # child-process-ctor [![Build Status](https://travis-ci.org/sindresorhus/child-process-ctor.svg?branch=master)](https://travis-ci.org/sindresorhus/child-process-ctor)
 
-> Node.js 4.0 [`childProcess.ChildProcess`](https://github.com/nodejs/node/commit/a77c330c32) ponyfill
-
-> Ponyfill: A polyfill that doesn't overwrite the native method
+> Node.js 4 [`childProcess.ChildProcess`](https://github.com/nodejs/node/commit/a77c330c32) [ponyfill](https://ponyfill.com)
 
 
 ## Install
