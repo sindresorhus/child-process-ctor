@@ -1,3 +1,9 @@
+# Deprecated
+
+Deprecated since Node.js 4 is no longer maintained.
+
+---
+
 # child-process-ctor [![Build Status](https://travis-ci.org/sindresorhus/child-process-ctor.svg?branch=master)](https://travis-ci.org/sindresorhus/child-process-ctor)
 
 > Node.js 4 [`childProcess.ChildProcess`](https://github.com/nodejs/node/commit/a77c330c32) [ponyfill](https://ponyfill.com)
